@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-bg text-white;
+  }
+}
+
+@layer utilities {
+  .text-glow-primary {
+    text-shadow: 0 0 10px #38bdf8, 0 0 20px #38bdf8, 0 0 30px #38bdf8;
+  }
+  
+  .text-glow-accent {
+    text-shadow: 0 0 10px #f472b6, 0 0 20px #f472b6, 0 0 30px #f472b6;
+  }
+  
+  .text-glow-success {
+    text-shadow: 0 0 10px #4ade80, 0 0 20px #4ade80, 0 0 30px #4ade80;
+  }
+  
+  .border-glow-primary {
+    box-shadow: 0 0 10px #38bdf8, 0 0 20px #38bdf8, inset 0 0 10px #38bdf8;
+  }
+  
+  .border-glow-accent {
+    box-shadow: 0 0 10px #f472b6, 0 0 20px #f472b6, inset 0 0 10px #f472b6;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
