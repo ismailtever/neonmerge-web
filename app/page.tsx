@@ -216,6 +216,12 @@ export default function Home() {
                 support@neonmerge.com
               </a>
               <Link
+                href="/support"
+                className="hover:text-primary transition-colors"
+              >
+                Support
+              </Link>
+              <Link
                 href="/privacy"
                 className="hover:text-primary transition-colors"
               >
