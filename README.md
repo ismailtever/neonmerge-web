@@ -18,29 +18,6 @@ A high-conversion, single-page landing website for the mobile game "NeonMerge: E
 - **Lucide React** - Icons
 - **TypeScript** - Type safety
 
-## Getting Started
-
-### Installation
-
-```bash
-npm install
-```
-
-### Development
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Production Build
-
-```bash
-npm run build
-npm start
-```
-
 ## Color Palette
 
 - **Background**: `#0f172a` (Dark Slate)
@@ -64,23 +41,3 @@ neonmerge-web/
 ├── tailwind.config.js   # Tailwind configuration with custom colors
 └── tsconfig.json
 ```
-
-## Deployment
-
-### GitHub Pages + Hostinger
-
-Bu proje GitHub Pages'e deploy edilecek şekilde yapılandırılmıştır. Detaylı deployment talimatları için [DEPLOY.md](./DEPLOY.md) dosyasına bakın.
-
-**Hızlı Başlangıç:**
-
-1. GitHub'da repository oluşturun ve kodu push edin
-2. Repository Settings > Pages > Source: GitHub Actions seçin
-3. Hostinger'da DNS ayarlarını yapın (DEPLOY.md'de detaylar var)
-4. Custom domain: `www.neonmerge.fun` ayarlayın
-
-**Alternatif Deployment Seçenekleri:**
-- **Vercel** (recommended for Next.js)
-- **Netlify**
-- **Any static hosting service**
-
-Detaylı bilgi için `DEPLOY.md` dosyasına bakın.
