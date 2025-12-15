@@ -7,10 +7,8 @@
 # Field #3: Relationship (DIRECT or RESELLER)
 # Field #4: Certification Authority ID (optional)
 #
-# Example entries (replace with your actual ad network information):
-# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
-# applovin.com, YOUR_APPLOVIN_PUBLISHER_ID, DIRECT
-# unity3d.com, YOUR_UNITY_PUBLISHER_ID, DIRECT
+# Authorized sellers:
+google.com, pub-3193277215340956, DIRECT, f08c47fec0942fa0
 #
 # For more information, visit: https://iabtechlab.com/ads-txt/
 
